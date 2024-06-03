@@ -1,5 +1,4 @@
 Name: Parmesh Mohan Walunj
-StudentID: 1002149428
 
 This project implements Semantic Search Engine using the Elasticsearch.
 
@@ -16,12 +15,3 @@ Flow:
 6. Creating the UI using streamlit to input the user query and show the search results.
 
 File to be executed: search_app.py
-
-References:
-https://docs.streamlit.io/get-started/tutorials
-https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/index.html
-https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/installation.html
-https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/examples.html#ex-index
-https://github.com/gborn/Semantic-Search-Engine-Using-ElasticSearch/blob/main/app.py
-https://github.com/abidsaudagar/semantic-search-elastic-search-and-BERT-vector-embedding
-https://medium.com/version-1/vector-based-semantic-search-using-elasticsearch-48d7167b38f5
