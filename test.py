@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer
 import pandas as pd
 # model = SentenceTransformer('all-mpnet-base-v2')
 
-es = Elasticsearch("https://localhost:9200", basic_auth=("elastic", "gCu*pg8LcRYl_+TRqcYA"), ca_certs="/Users/parmesh/My Mac/MS/ML2/semantic_search/elastic/elasticsearch-8.12.1/config/certs/http_ca.crt")
+es = Elasticsearch("https://localhost:9200", basic_auth=("elastic", "elastic_pass"), ca_certs="mypath/elastic/elasticsearch-8.12.1/config/certs/http_ca.crt")
 # s = es.indices.delete(index="imdb_movies",)
 es.indices.refresh(index="imdb_movies")
 # print(s)
