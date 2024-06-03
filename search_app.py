@@ -16,7 +16,7 @@ import pandas as pd
 
 
 try:
-    es = Elasticsearch("https://localhost:9200", basic_auth=("elastic", "gCu*pg8LcRYl_+TRqcYA"), ca_certs="/Users/parmesh/My Mac/MS/ML2/semantic_search/elastic/elasticsearch-8.12.1/config/certs/http_ca.crt")
+    es = Elasticsearch("https://localhost:9200", basic_auth=("elastic", "elastic_pass"), ca_certs="mypath/elastic/elasticsearch-8.12.1/config/certs/http_ca.crt")
 except ConnectionError as e:
     print("Connection has Error:", e)
     
